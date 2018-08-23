@@ -57,7 +57,7 @@ IGNORABLE_404_ENDS = (".php", ".cgi")
 IGNORABLE_404_STARTS = ("/phpmyadmin/",)
 
 ATOMIC_REQUESTS = True
-TIME_ZONE = "UTC"
+TIME_ZONE = "UTC+2"
 LOGIN_URL="/auth/login/"
 USE_TZ = True
 
@@ -65,7 +65,7 @@ USE_I18N = True
 USE_L10N = True
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'de'
 
 # Languages we provide translations for, out of the box.
 LANGUAGES = [
